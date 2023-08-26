@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71104c0-fda8-48ec-9cad-8f05ee076194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CategoriaProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientePF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SistemaComercial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SistemaComercialMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ClienteNaoExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ProdutoNaoExisteException.java" afterDir="false" />
+    <list default="true" id="c71104c0-fda8-48ec-9cad-8f05ee076194" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientePJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SistemaComercialMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientePF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SistemaComercialMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SistemaComercialMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +52,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="SistemaComercialMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaComercial" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SistemaComercialMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SistemaComercialMapTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,11 +86,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692841434060</updated>
-      <workItem from="1692841435467" duration="1239000" />
+      <workItem from="1692841435467" duration="1563000" />
+      <workItem from="1693021345386" duration="2749000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1692842844770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692842844770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto COMERCIO" />
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>

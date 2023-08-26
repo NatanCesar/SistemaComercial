@@ -1,6 +1,7 @@
 import exceptions.ClienteNaoExisteException;
 import exceptions.ProdutoNaoExisteException;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,31 +16,57 @@ public class SistemaComercialMap implements SistemaComercial {
     }
     @Override
     public boolean existeProduto(Produto produto) {
-        return false;
+        if (produtos.containsKey(produto.getCodigo())){
+            return true;
+        } else{
+            return false;
+        }
     }
 
     @Override
     public Produto pesquisaProduto(String codigoProduto) throws ProdutoNaoExisteException {
-        return null;
+        if (produtos.containsKey(codigoProduto)){
+            return this.produtos.get(codigoProduto);
+        }
+    throw new ProdutoNaoExisteException("Produto não existe no sistema!");
     }
 
     @Override
     public boolean cadastraProduto(Produto produto) {
-        return false;
+        if (existeProduto(produto)){
+            return false;
+        } else{
+            this.produtos.put(produto.getCodigo(),produto);
+            return true;
+        }
     }
 
     @Override
     public boolean existeCliente(Cliente cliente) {
-        return false;
+        if (clientes.containsKey(cliente.getID())){
+            return true;
+        } else{
+            return false;
+        }
     }
 
     @Override
     public Cliente pesquisaCliente(String id) throws ClienteNaoExisteException {
-        return null;
+        if (clientes.containsKey(id)){
+            return this.clientes.get(id);
+        }
+        throw new ClienteNaoExisteException("Produto não existe no sistema!");
     }
+
 
     @Override
     public Collection<Produto> pesquisaProdutosDaCategoria(CategoriaProduto categoria) {
-        return null;
+        Collection<Produto> produtosCategoria = new ArrayList<>();
+        for (Produto p: produtos.values()){
+            if (p.getCategoria().equals(categoria)){
+                produtosCategoria.add(p);
+            }
+        }
+        return produtosCategoria;
     }
 }
